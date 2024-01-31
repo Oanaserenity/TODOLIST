@@ -1,0 +1,39 @@
+.todo-app {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Todo List Styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Todo Item Styles */
+li {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 8px 0;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect on todo item */
+li:hover {
+  background-color: #f8f8f8;
+}
+
+/* Todo Item Text */
+.todo-text {
+  flex-grow: 1;
+  margin-right: 10px;
+}
